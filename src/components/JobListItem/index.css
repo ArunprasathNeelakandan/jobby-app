@@ -1,0 +1,33 @@
+.job-li-list {
+    width: 90%;
+    background-color: gray;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+@media screen and (max-width:767px){
+
+    .job-li-list {
+        margin-right: 5%;
+    }
+    
+}
+
+.un-list {
+    list-style-type: none;
+}
+
+.company-logo {
+    height: 50px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+

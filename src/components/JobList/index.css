@@ -1,0 +1,35 @@
+
+.loader-cart-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;   
+}
+
+.job-detaile-cart {
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.no-job-img {
+    height: 300px;
+}
+
+.success-cart-no-job {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+@media screen and (max-width:767px) {
+
+    .job-detaile-cart {
+        margin-left: 5%;
+    }
+    .no-job-img {
+        height: 100px;
+    }
+    
+}

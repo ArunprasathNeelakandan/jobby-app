@@ -1,0 +1,79 @@
+.Header-bg {
+    background-color: rgb(189, 165, 165);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: 150px;
+}
+
+.mobile-header-container {
+    display: none;
+}
+
+.disktop-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+.logout-btn {
+    background-color: chocolate;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.logout-btn:hover {
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, 0.3);
+    background-color: rgb(214, 125, 61);
+}
+
+.header-para-cart {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 30px;
+    
+}
+
+
+
+.header-para-cart p {
+    color: black;
+    text-decoration: none;
+}
+
+.header-para-cart p:hover {
+    font-weight: bolder;
+}
+
+@media screen and (max-width:765px) {
+
+    .mobile-header-container {
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .logo-img {
+        height: 40px;
+        width: 100px;
+    }
+
+    .disktop-header-container {
+        display: none;
+    }
+    
+}
+
+.header-icon {
+    color: black;
+}

@@ -1,0 +1,70 @@
+
+.login-bg {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container {
+    background-color: #64748b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 20px;
+    padding: 20px;
+    padding-bottom: 20px;
+    max-width: 90%;
+}
+
+.login-logo-img {
+    width: 150px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.login-input {
+    width: 300px;
+    background-color:  #64748b;
+    border: solid 1px rgb(156, 226, 162);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-right: none;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+    box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.login-input::placeholder {
+    color: rgb(143, 139, 133);
+    font-size: 20px;
+}
+
+.login-form-container button {
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.login-input:hover {
+    border-color: rgb(0, 60, 128);
+    
+}
+
+.login-form-container button:hover {
+    background-color: rgb(43, 43, 94);
+}
+
+.err-msg {
+    color:red;
+}

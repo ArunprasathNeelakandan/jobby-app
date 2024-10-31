@@ -1,0 +1,26 @@
+.job-filter-bg {
+    margin-top: 20px;
+    color: white;
+}
+
+.checkbox-cart {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-cart label {
+    padding-left: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 766px) {
+    .job-filter-bg {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

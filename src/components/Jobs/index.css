@@ -1,0 +1,64 @@
+.jobs-bg {
+    background-color: black;
+}
+
+.job-split-cart {
+    display: flex;
+    
+}
+
+.profile-filter-container {
+    padding-left: 5%;
+    flex-grow: 0;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.job-describtion {
+    flex-grow: 1;
+}
+
+.search-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-icon-container {
+    padding: 5px 10px;
+    background-color: rgb(59, 41, 41);
+    color: white;
+
+}
+
+.search-container input {
+    background-color: black;
+    padding-left: 10px;
+    color: white;
+}
+
+.hr-line {
+    margin-top: 20px;
+}
+
+
+
+.sm-search-bar {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .md-search-bar {
+        display: none;
+    }
+
+    .sm-search-bar {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .job-split-cart {
+        display: block;
+    }
+   
+    
+}
